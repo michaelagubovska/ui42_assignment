@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('web_address');
             $table->text('coat_of_arms_path');
+            $table->timestamps();
         });
     }
 
