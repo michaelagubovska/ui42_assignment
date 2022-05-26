@@ -1,1 +1,85 @@
-@import '~bootstrap';
+@import '../../node_modules/bootstrap';
+
+$accentcolor: rgba(10,124,241,1);
+$buttoncolor: #07d3a9;
+$footercolor: #dfdfdf;
+$greytext: #454545;
+$lightgreytext: #bfbcbc;
+
+// HEADER
+.accent-text {
+    color: $accentcolor !important;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+#logoImage {
+    width: 110%;
+    height: auto;
+}
+
+#langMenu, #langSK, .bi-search {
+    color: $lightgreytext !important;
+}
+
+.button-login {
+    background-color: $buttoncolor;
+    color: white;
+    width: 80%;
+}
+
+.search-bar {
+    width: 100%;
+}
+
+// BODY
+.home-content {
+    background: linear-gradient(180deg, rgba(10,124,241,1) 0%, rgba(19,170,247,1) 80%);
+    height: 60vh;
+}
+
+.home-content-body {
+    width: 45vw;
+}
+
+.search-bar-city {
+    width: 85%;
+    height: 170%;
+}
+
+@media screen and (max-width: 1440px) {
+    h1{
+        font-size: 60px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 28px !important;
+    }
+}
+
+// FOOTER
+#footer {
+    background-color: $footercolor;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul a, h5, nav a {
+    color: $greytext !important;
+}
+
+footer ul a:hover {
+    text-decoration: underline !important;
+    color: $accentcolor !important;
+}
+
+nav a:hover {
+    color: $accentcolor !important;
+}
