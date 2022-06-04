@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SearchCityController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/',[HomeController::class,'index'])->name('home');
+Route::get('/city', [SearchCityController::class,'index']);
+Route::get('/city/{id}', [SearchCityController::class,'show']);

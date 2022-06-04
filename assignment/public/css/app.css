@@ -11290,10 +11290,16 @@ textarea.form-control-lg {
 }
 
 #logoImage {
-  width: 110%;
+  width: 60%;
   height: auto;
 }
 
+@media screen and (max-width: 768px) {
+  #logoImage {
+    width: 80%;
+    height: auto;
+  }
+}
 #langMenu, #langSK, .bi-search {
   color: #bfbcbc !important;
 }
@@ -11305,7 +11311,7 @@ textarea.form-control-lg {
 }
 
 .search-bar {
-  width: 100%;
+  width: 80%;
 }
 
 .home-content {
@@ -11322,6 +11328,29 @@ textarea.form-control-lg {
   height: 170%;
 }
 
+#detail-obce-heading h1, #detail-obce-heading .h1 {
+  font-size: x-large !important;
+}
+
+#detail-obce {
+  background-color: #f8f8f8;
+}
+
+#coat-of-arms {
+  width: 35%;
+  height: auto;
+}
+
+.detail-obce-list {
+  font-size: small;
+}
+
+.detail-obce-list ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 @media screen and (max-width: 1440px) {
   h1, .h1 {
     font-size: 60px !important;
@@ -11334,9 +11363,15 @@ textarea.form-control-lg {
 }
 #footer {
   background-color: #dfdfdf;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  max-height: 250vh;
+  margin-top: auto;
 }
 
-footer ul {
+footer ul, .detail-obce-list ul {
   list-style-type: none;
   padding: 0;
 }

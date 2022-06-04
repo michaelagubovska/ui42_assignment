@@ -7,8 +7,8 @@
                 <h1 class="text-white display-1 d-flex justify-content-center">Vyhľadať v databáze obcí</h1>
             </section>
 
-            <section class="row">
-                <form class="search-bar d-flex justify-content-center" method="get">
+            <section class="row justify-content-center">
+                <form class="search-bar d-flex justify-content-center" action="city" method="get">
                     <input type="text" name="search-city" class="form-control search-bar-city rounded shadow-lg border-0" placeholder="Zadajte názov">
                 </form>
             </section>
