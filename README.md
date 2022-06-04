@@ -12,9 +12,17 @@ Mojou úlohou bolo implementovať body 1 a 4 zo zadania. Implementovala som body
 - **php simple html dom parser**
 
 ## Inštrukcie k používaniu
-`php artisan data:import` - parsovanie dát na webe e-obce.sk, načítané dáta o mestách uloží do databázy s vyhýbaním sa duplikátom
+1. `composer install` - inštalácia php dependencies
 
-`php artisan serve` - spustenie servera na localhoste
+2. `npm install` - inštalácia packageov
+
+3. `vytvorenie .env súboru` - manuálne vytvorenie .env súboru podľa príkladu `.env.example` a napárovanie vlastnej databázy 
+
+4. `php artisan key:generate` - vygenerovanie APP_KEY do `.env` súboru
+
+5. `php artisan data:import` - parsovanie dát na webe e-obce.sk, načítané dáta o mestách uloží do databázy s vyhýbaním sa duplikátom
+
+6. `php artisan serve` - spustenie servera na localhoste
 
 ## Postrehy počas riešenia zadania
 
