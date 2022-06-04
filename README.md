@@ -20,9 +20,11 @@ Mojou úlohou bolo implementovať body 1 a 4 zo zadania. Implementovala som body
 
 4. `php artisan key:generate` - vygenerovanie APP_KEY do `.env` súboru
 
-5. `php artisan data:import` - parsovanie dát na webe e-obce.sk, načítané dáta o mestách uloží do databázy s vyhýbaním sa duplikátom
+5. `php artisan migrate` - migrácia databázy na vytvorenie jej štruktúry
 
-6. `php artisan serve` - spustenie servera na localhoste
+6. `php artisan data:import` - parsovanie dát na webe e-obce.sk, načítané dáta o mestách uloží do databázy s vyhýbaním sa duplikátom
+
+7. `php artisan serve` - spustenie servera na localhoste
 
 ## Postrehy počas riešenia zadania
 
