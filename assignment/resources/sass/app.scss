@@ -94,7 +94,13 @@ $breakpoint-laptop: 1440px;
 @media screen and (max-width: $breakpoint-tablet) {
     h1{
         font-size: 28px !important;
-    }}
+    }
+
+    .search-bar-city {
+        width: 250px;
+        height: 170%;
+    }
+}
 
 // FOOTER
 #footer {

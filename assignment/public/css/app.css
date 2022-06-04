@@ -11360,6 +11360,11 @@ textarea.form-control-lg {
   h1, .h1 {
     font-size: 28px !important;
   }
+
+  .search-bar-city {
+    width: 250px;
+    height: 170%;
+  }
 }
 #footer {
   background-color: #dfdfdf;
