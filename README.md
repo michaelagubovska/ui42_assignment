@@ -44,4 +44,5 @@ Nemám skúsenosť s používaním SASS, preto som s ním v zadaní pracovala st
 - **bod 4**: 7 hodín (vrátane tvorby bladeov pre celú appku, controllera a routovania)
 - **bod 5**: 6 hodín (vrátane responzivity)
 - **bod 6**: 1 hodina
+- **bod 7**: 1.5 hodín
 - **refaktoring**: 1 hodina
