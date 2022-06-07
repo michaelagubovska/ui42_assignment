@@ -1,6 +1,6 @@
 ## ui42 candidate assignment
 
-Mojou úlohou bolo implementovať body 1 a 4 zo zadania. Implementovala som body 1, 2, 4, 5 a 6.
+Mojou úlohou bolo implementovať body 1 a 4 zo zadania. Implementovala som body 1, 2, 4, 5, 6 a 7.
 
 ## Použité technológie
 
@@ -10,6 +10,7 @@ Mojou úlohou bolo implementovať body 1 a 4 zo zadania. Implementovala som body
 - **Postgres**
 - **Bootstrap 5.1.3**
 - **php simple html dom parser**
+- **Typeahead library 4.0.1**
 
 ## Inštrukcie k používaniu
 1. `composer install` - inštalácia php dependencies
