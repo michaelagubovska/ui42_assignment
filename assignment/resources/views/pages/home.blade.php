@@ -9,7 +9,8 @@
 
             <section class="row justify-content-center">
                 <form class="search-bar d-flex justify-content-center" action="city" method="get">
-                    <input type="text" name="search-city" class="form-control search-bar-city rounded shadow-lg border-0" placeholder="Zadajte názov">
+                    <input type="text" name="search-city" class="form-control typeahead search-bar-city rounded shadow-lg border-0"
+                           data-provide="typeahead" placeholder="Zadajte názov" autocomplete="off">
                 </form>
             </section>
         </div>

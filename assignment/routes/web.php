@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/city', [SearchCityController::class,'index']);
 Route::get('/city/{id}', [SearchCityController::class,'show']);
+
+Route::get('autocomplete',array('as'=>'autocomplete','uses'=>'App\Http\Controllers\AutocompleteSearchController@autocomplete'));
